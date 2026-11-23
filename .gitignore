@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+*.py[cod]
+
+# Dados e artefatos gerados localmente
+data/processed/
+data/raw data/
