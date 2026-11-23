@@ -41,7 +41,7 @@ jobs:
       # 4. Instalar dependências
       - name: Instalar dependências
         run: |
-          uv pip install --system pytest pytest-cov
+          uv pip install --system .
       
       # 5. Rodar testes com cobertura
       - name: Executar testes
